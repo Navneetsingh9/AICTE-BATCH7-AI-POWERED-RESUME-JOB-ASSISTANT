@@ -262,6 +262,7 @@ OPENROUTER_API_KEY=your_api_key_here
 ```
 
 ## 📁 Project Structure
+```text
 resume-job-assistant/
 │
 ├── 📄 app.py                      # Main application
@@ -292,7 +293,7 @@ resume-job-assistant/
         ├── 📄 resume_tab.py          # Tab 1 UI
         ├── 📄 cover_letter_tab.py    # Tab 2 UI
         └── 📄 interview_tab.py       # Tab 3 UI
-
+```
 
 Run this test to ensure everything works:
 python -c "from utils.question_collector import InterviewQuestionCollector; q = InterviewQuestionCollector(); print(f'✅ Questions loaded: {q.get_total_questions_count()}')"
