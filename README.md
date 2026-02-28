@@ -150,6 +150,7 @@ flowchart LR
 ```
 
 ### 🔄 Data Flow Diagram
+```mermaid
 sequenceDiagram
     participant User
     participant UI as Streamlit UI
@@ -182,8 +183,9 @@ sequenceDiagram
         Agent-->>UI: Complete Guide
         UI-->>User: Display Questions
     end
-
+```
 ### 🧩 Class Diagram
+```mermaid
 classDiagram
     class BaseAgent {
         +string name
@@ -222,7 +224,7 @@ classDiagram
     BaseAgent <|-- InterviewCoachAgent
     
     InterviewCoachAgent --> InterviewQuestionCollector : uses
-
+```
 ## 📦 Installation
 
 ### Prerequisites
