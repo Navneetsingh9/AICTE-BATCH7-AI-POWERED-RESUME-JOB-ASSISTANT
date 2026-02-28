@@ -296,8 +296,9 @@ resume-job-assistant/
 ```
 
 Run this test to ensure everything works:
+```bash
 python -c "from utils.question_collector import InterviewQuestionCollector; q = InterviewQuestionCollector(); print(f'✅ Questions loaded: {q.get_total_questions_count()}')"
-
+```
 MIT License
 
 Copyright (c) 2026 Navneet Singh
@@ -305,5 +306,4 @@ Copyright (c) 2026 Navneet Singh
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files...
 
-<div align="center"> <h3>Made with ❤️ for job seekers everywhere</h3> <p>Happy Job Hunting! 🎉</p> </div> ```
-🚀 How to Add It
+<div align="center"> <h3>Made with ❤️ for job seekers everywhere</h3> <p>Happy Job Hunting! 🎉</p> </div> 
