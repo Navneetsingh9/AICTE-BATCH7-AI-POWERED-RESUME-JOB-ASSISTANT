@@ -9,7 +9,6 @@ A powerful multi-agent AI system to help job seekers with resume optimization, c
 
 <div align="center">
   <img src="https://img.icons8.com/color/96/000000/resume.png" alt="Resume Icon"/>
-  <img src="https://img.icons8.com/color/96/000000/covering-letter.png" alt="Cover Letter Icon"/>
   <img src="https://img.icons8.com/color/96/000000/interview.png" alt="Interview Icon"/>
 </div>
 
